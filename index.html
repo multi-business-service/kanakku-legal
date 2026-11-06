@@ -4,13 +4,19 @@
 <meta charset="utf-8">
 <title>Kanakku — Personal Lending Ledger</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Kanakku is a personal ledger app for individual lenders and small businesses in India. Terms, privacy policy, disclaimer and account deletion.">
+<link rel="icon" type="image/png" href="icon.png">
+<meta name="theme-color" content="#0A1A3F">
 <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="home">
 <header class="site">
   <div class="wrap">
-    <div class="logo-mark">K</div>
-    <div class="name">Kanakku</div>
+    <img class="logo" src="icon.png" alt="" width="40" height="40">
+    <div>
+      <div class="name">Kanakku</div>
+      <div class="by">by JaguvaanS Group</div>
+    </div>
   </div>
 </header>
 <nav class="site">
@@ -23,41 +29,42 @@
 
 <main>
   <div class="hero">
-    <div class="logo-mark">K</div>
+    <img class="logo" src="icon.png" alt="Kanakku app icon" width="88" height="88">
     <h1>Kanakku</h1>
     <p class="tagline">A personal ledger app for individual lenders and small business operators to track loan disbursements, repayment schedules, and collections for their own records.</p>
+    <span class="badge">English · தமிழ் · हिंदी</span>
   </div>
 
   <div class="cards">
-    <div class="card">
+    <a class="card" href="terms.html">
+      <div class="icon" aria-hidden="true">📄</div>
       <h3>Terms &amp; Conditions</h3>
       <p>What you agree to when using the app.</p>
-      <br>
-      <a href="terms.html">Read Terms →</a>
-    </div>
-    <div class="card">
+      <span class="go">Read Terms →</span>
+    </a>
+    <a class="card" href="privacy.html">
+      <div class="icon" aria-hidden="true">🔒</div>
       <h3>Privacy Policy</h3>
-      <p>How your data and your customers' data is handled.</p>
-      <br>
-      <a href="privacy.html">Read Privacy Policy →</a>
-    </div>
-    <div class="card">
+      <p>How your data and your customers' data is handled. Stored in India.</p>
+      <span class="go">Read Privacy Policy →</span>
+    </a>
+    <a class="card" href="disclaimer.html">
+      <div class="icon" aria-hidden="true">⚖️</div>
       <h3>Disclaimer</h3>
       <p>Kanakku is a record-keeping tool, not a financial institution.</p>
-      <br>
-      <a href="disclaimer.html">Read Disclaimer →</a>
-    </div>
-    <div class="card">
+      <span class="go">Read Disclaimer →</span>
+    </a>
+    <a class="card" href="delete-account.html">
+      <div class="icon" aria-hidden="true">🗑️</div>
       <h3>Delete your account</h3>
       <p>How to delete your account and data, in the app or by email.</p>
-      <br>
-      <a href="delete-account.html">Delete account →</a>
-    </div>
+      <span class="go">Delete account →</span>
+    </a>
   </div>
 </main>
 
 <footer class="site">
-  Kanakku is developed by JaguvaanS Group. Contact: <strong>kaasukanakku@gmail.com</strong>
+  © 2026 JaguvaanS Group. All rights reserved. · Contact: <strong>kaasukanakku@gmail.com</strong>
 </footer>
 </body>
 </html>
